@@ -1,0 +1,87 @@
+GIT COMMANDS USED IN THE PROJECT
+================================
+
+1. git --version
+   Checks the installed Git version.
+
+2. git init
+   Initializes a new local Git repository.
+
+3. git branch -M main
+   Renames the current branch to main.
+
+4. git config user.name "Sunanda Shukla"
+   Sets the author name for Git commits.
+
+5. git config user.email "sunandashuklaaa@gmail.com"
+   Sets the author email for Git commits.
+
+6. git status
+   Displays the current repository status.
+
+7. git add .
+   Stages all non-ignored files for committing.
+
+8. git commit -m "Initial commit: Add HTML project files"
+   Creates the initial commit containing the project files.
+
+9. git add index.html
+   Stages changes made to index.html.
+
+10. git commit -m "Update homepage content"
+    Saves the homepage modification as a commit.
+
+11. git branch feature
+    Creates a new branch named feature.
+
+12. git switch feature
+    Switches to the feature branch.
+
+13. git branch
+    Displays the available local branches.
+
+14. git add about.html
+    Stages the changes made to about.html.
+
+15. git commit -m "Add new feature to about page"
+    Commits the new feature added to about.html.
+
+16. git switch main
+    Switches back to the main branch.
+
+17. git merge --no-ff feature -m "Merge feature branch into main"
+    Merges the feature branch into main and creates a merge commit.
+
+18. git log --oneline --graph --decorate --all
+    Displays commit history in a compact graphical format.
+
+19. git status --ignored
+    Displays repository status, including ignored files.
+
+20. git add .gitignore
+    Stages the .gitignore file.
+
+21. git commit -m "Add gitignore rules for logs and temp folder"
+    Commits the ignore rules for log files and the temp folder.
+
+22. git add index.html
+    Stages the temporary homepage modification.
+
+23. git commit -m "Add temporary content to homepage"
+    Creates a commit containing temporary homepage content.
+
+24. git revert --no-edit HEAD
+    Creates a new commit that reverses the most recent commit.
+
+25. git remote add origin https://github.com/nandastechverse/Software-Development-Practices.git
+    Connects the local repository to the remote GitHub repository.
+
+26. git remote -v
+    Displays the configured remote repository URLs.
+
+27. git push -u origin --all
+    Pushes all local branches to GitHub and sets their upstream tracking branches.
+
+GITHUB REPOSITORY
+=================
+https://github.com/nandastechverse/Software-Development-Practices
