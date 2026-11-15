@@ -82,6 +82,9 @@ GIT COMMANDS USED IN THE PROJECT
 27. git push -u origin --all
     Pushes all local branches to GitHub and sets their upstream tracking branches.
 
+28. git push
+    Pushes the latest local commits to the configured remote repository.
+
 GITHUB REPOSITORY
 =================
 https://github.com/nandastechverse/Software-Development-Practices
